@@ -9,30 +9,51 @@ use yii\widgets\ActiveForm;
 $this->title = 'Sign In';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="form-box" id="login-box">
+<section class="container animated fadeInUp">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div id="login-wrapper">
+                    <header>
+                        <div class="brand">
+                            <a href="index-2.html" class="logo">
+                                <i class="icon-layers"></i>
+                                <span>NEU</span>BOARD</a>
+                        </div>
+                    </header>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">     
+                           Sign In
+                        </h3>
+                        </div>
+                        <div class="panel-body">
+                            <p> Login to access your account.</p>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <input type="password" class="form-control" id="password" placeholder="Password">
+                                        <i class="fa fa-lock"></i>
+                                        <a href="javascript:void(0)" class="help-block">Forgot Your Password?</a>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <a href="index-2.html" class="btn btn-primary btn-block">Sign in</a>
+                                        <hr />
+                                        <a href="pages-sign-up.html" class="btn btn-default btn-block">Not a member? Sign Up</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="header"><?= Html::encode($this->title) ?></div>
-    <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
-    <div class="body bg-gray">
-        <p>Please fill out the following fields to login:</p>
-        <?= $form->field($model, 'username') ?>
-        <?= $form->field($model, 'password')->passwordInput() ?>
-        <?= $form->field($model, 'rememberMe')->checkbox() ?>
-    </div>
-    <div class="footer">
-
-        <?= Html::submitButton('Login', ['class' => 'btn bg-olive btn-block', 'name' => 'login-button']) ?>
-
-        <p><a href="#">I forgot my password</a></p>
-
-    </div>
-    <?php ActiveForm::end(); ?>
-</div>
-
-<div class="margin text-center">
-    <span>Sign in using social networks</span>
-    <br/>
-    <button class="btn bg-light-blue btn-circle"><i class="fa fa-facebook"></i></button>
-    <button class="btn bg-aqua btn-circle"><i class="fa fa-twitter"></i></button>
-    <button class="btn bg-red btn-circle"><i class="fa fa-google-plus"></i></button>
-</div>
+    </section>

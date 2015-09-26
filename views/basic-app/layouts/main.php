@@ -10,7 +10,7 @@ if (Yii::$app->controller->action->id === 'login') {
     );
 } else {
     imanilchaudhari\rdash\web\Assets::register($this);
-    frontend\assets\AppAsset::register($this);
+    app\assets\AppAsset::register($this);
     $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/imanilchaudhari/yii2-rdash/assets');
 ?>
 <?php $this->beginPage() ?>

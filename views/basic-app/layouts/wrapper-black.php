@@ -7,6 +7,7 @@ use yii\helpers\Html;
 
 imanilchaudhari\rdash\web\Assets::register($this);
 $directoryAsset = $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/imanilchaudhari/yii2-rdash/assets');
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

@@ -1,6 +1,7 @@
 <!--logo start-->
 <div class="brand">
     <a href="<?=Yii::$app->homeUrl?>" class="logo">
+
         <i class="icon-layers"></i>
         <span>NEU</span>BOARD</a>
 </div>
@@ -28,6 +29,7 @@
             <span class="meta">
                 <span class="avatar">
                     <img src="<?=$directoryAsset?>/img/profile.jpg" class="img-circle" alt="">
+
                 </span>
             <span class="text">Mike Adams</span>
             <span class="caret"></span>

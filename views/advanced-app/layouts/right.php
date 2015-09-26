@@ -32,6 +32,7 @@
                     <div class="col-md-3">
                         <span class="avatar">
                 <img src="<?=$directoryAsset?>/img/avatar1.png" class="img-circle" alt="">
+
                   <i class="on animated bounceIn"></i>
                 </span>
                     </div>
@@ -46,6 +47,7 @@
                     <div class="col-md-3">
                         <span class="avatar">
                 <img src="<?=$directoryAsset?>/img/avatar2.png" class="img-circle" alt="">
+
                   <i class="on animated bounceIn"></i>
                 </span>
                     </div>
@@ -60,6 +62,7 @@
                     <div class="col-md-3">
                         <span class="avatar">
                 <img src="<?=$directoryAsset?>/img/avatar4.jpg" class="img-circle" alt="">
+
                   <i class="on animated bounceIn"></i>
                 </span>
                     </div>
@@ -74,6 +77,8 @@
                     <div class="col-md-3">
                         <span class="avatar">
                 <img src="<?=$directoryAsset?>/img/avatar5.png" class="img-circle" alt="">
+
+
                   <i class="away animated bounceIn"></i>
                 </span>
                     </div>
@@ -88,6 +93,7 @@
                     <div class="col-md-3">
                         <span class="avatar">
                 <img src="<?=$directoryAsset?>/img/avatar6.png" class="img-circle" alt="">
+
                   <i class="on animated bounceIn"></i>
                 </span>
                     </div>
@@ -102,6 +108,7 @@
                     <div class="col-md-3">
                         <span class="avatar">
                 <img src="<?=$directoryAsset?>/img/avatar7.png" class="img-circle" alt="">
+
                   <i class="on animated bounceIn"></i>
                 </span>
                     </div>
@@ -116,6 +123,7 @@
                     <div class="col-md-3">
                         <span class="avatar">
                 <img src="<?=$directoryAsset?>/img/avatar8.png" class="img-circle off" alt="">
+
                   <i class="off animated bounceIn"></i>
                 </span>
                     </div>
@@ -130,6 +138,7 @@
                     <div class="col-md-3">
                         <span class="avatar">
                 <img src="<?=$directoryAsset?>/img/avatar9.png" class="img-circle off" alt="">
+
                   <i class="off animated bounceIn"></i>
                 </span>
                     </div>

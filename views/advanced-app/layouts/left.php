@@ -1,6 +1,7 @@
 <div class="sidebar-profile">
     <div class="avatar">
         <img class="img-circle profile-image" src="<?=$directoryAsset?>/img/profile.jpg" alt="profile">
+
         <i class="on border-dark animated bounceIn"></i>
     </div>
     <div class="profile-body dropdown">

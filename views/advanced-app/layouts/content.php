@@ -7,7 +7,6 @@ use imanilchaudhari\rdash\widgets\Alert;
     <div class="breadcrumb-wrapper hidden-xs">
        <?= Breadcrumbs::widget(['links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : []]) ?>    
     </div>
-        
 </div>
 <section id="main-content" class="animated fadeInUp">    
 <?= Alert::widget() ?>        
@@ -15,7 +14,6 @@ use imanilchaudhari\rdash\widgets\Alert;
 
     <?=$content?>
     
-    
-    
+
 </div>
 </section>
