@@ -38,7 +38,6 @@ Advanded app
          ],
     ],
 ],    
-     ]
 ```
 
 Basic app
@@ -52,5 +51,9 @@ Basic app
          ],
     ],
 ],    
-     ]
 ```
+
+Credits
+-------
+
+[This](https://github.com/ImAnilChaudhari/yii2-rdash) is replica of [RDash](https://github.com/rdash/). And we thanks [RDash](https://github.com/rdash/) for this awesome theme.
