@@ -1,0 +1,27 @@
+{
+    "name": "imanilchaudhari/yii2-rdash",
+    "description": "This is a responsive admin dashboard built with twitter bootstrao 3.* .",
+    "type": "library",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anil Chaudhari",
+            "email": "caanil90@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "imanilchaudhari\\rdash\\": ""
+        }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/ImAnilChaudhari/yii2-rdash.git"
+        }
+    ]
+}
