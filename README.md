@@ -1,6 +1,6 @@
 A responsive dashboard for Yii2.
 ================================
-This is a responsive admin dashboard built with twitter bootstrao 3.* .
+This is a responsive admin dashboard built with twitter bootstrap 3.* .
 
 Installation
 ------------
@@ -27,12 +27,27 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
+Advanded app
 ```php
 'components' => [
     'view' => [
          'theme' => [
              'pathMap' => [
-                '@app/views' => '@vendor/imanilchaudhari/rdash/example-views/yii2-basic-app'
+                '@app/views' => '@vendor/imanilchaudhari/rdash/views/advanced-app'
+             ],
+         ],
+    ],
+],    
+     ]
+```
+
+Basic app
+```php
+'components' => [
+    'view' => [
+         'theme' => [
+             'pathMap' => [
+                '@app/views' => '@vendor/imanilchaudhari/rdash/views/basic-app'
              ],
          ],
     ],

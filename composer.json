@@ -1,8 +1,8 @@
 {
     "name": "imanilchaudhari/yii2-rdash",
-    "description": "This is a responsive admin dashboard built with twitter bootstrao 3.* .",
+    "description": "This is a responsive admin dashboard built with twitter bootstrap 3.* . ",
     "type": "library",
-    "keywords": ["yii2","extension"],
+    "keywords": ["yii2", "extension", "dashboard", "admin panel", "twitter bootstrap"],
     "license": "MIT",
     "authors": [
         {
@@ -11,14 +11,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-        "bower-asset/rdash-ui": "1.0.*",
-        "bower-asset/angular": "~1.2.21",
-        "bower-asset/angular-cookies": "~1.2.21",
-        "bower-asset/angular-bootstrap": "~0.11.0",
-        "bower-asset/angular-ui-router": "^0.2.10",
-        "bower-asset/bootstrap": "~3.2.0",
-        "bower-asset/font-awesome": "~4.1.0"
+        "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {

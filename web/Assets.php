@@ -15,13 +15,18 @@ use yii\web\AssetBundle;
  */
 class Asset extends AssetBundle
 {
-    public $sourcePath = '@bower/';
+    public $sourcePath = '@imanilchaudhari/rdash/assets';
     public $css = [
-        'admin-lte/css/AdminLTE.css', 
-        'font-awesome/css/font-awesome.min.css'
+        'css/animate.css',
+        'css/clndr.css',
+        'css/font-awesome.min.css',
+        'css/landing.css',
+        'css/main.css',
+        'css/simple-line-icons.css',
     ];
     public $js = [
-        'admin-lte/js/AdminLTE/app.js'
+        'js/src/app.js',
+        'js/vendor/modernizr-2.6.2.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
