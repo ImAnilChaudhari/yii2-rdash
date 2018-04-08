@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Anil Chaudhari",
-            "email": "caanil90@gmail.com"
+            "email": "imanilchaudhari@gmail.com"
         }
     ],
     "require": {
@@ -21,7 +21,7 @@
     "repositories":[
         {
             "type": "git",
-            "url": "https://github.com/ImAnilChaudhari/yii2-rdash.git"
+            "url": "https://github.com/imanilchaudhari/yii2-rdash.git"
         }
     ]
 }
